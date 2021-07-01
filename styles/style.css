@@ -1,0 +1,42 @@
+body {
+    background-color: #fff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#222;
+
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    gap: 15px;
+}
+a {
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited { 
+    text-decoration: none; 
+    color: #222; 
+
+}
+#apps {
+    filter: invert(41%) sepia(6%) saturate(422%) hue-rotate(173deg) brightness(91%) contrast(89%);
+}
+#apps:hover {
+    filter: invert(0%) sepia(100%) saturate(17%) hue-rotate(207deg) brightness(102%) contrast(73%);
+}
+#user-photo {
+    border-radius: 50%;
+}
+#user-photo:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color:#5f6368;
+}
+
