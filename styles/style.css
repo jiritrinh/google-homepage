@@ -94,6 +94,30 @@ a:visited {
     left: 53px;
     border: none;
     outline: none;
+    width: 80%;
+}
+#btns {
+    display:flex;
+    justify-content:center;
+    margin-top: 185px;
+}
+.btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+.btn:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
 }
 
 
